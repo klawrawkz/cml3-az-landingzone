@@ -1,0 +1,40 @@
+
+  /$$$$$$   /$$$$$$  /$$$$$$$$       /$$$$$$$                                        
+ /$$__  $$ /$$__  $$| $$_____/      | $$__  $$                                       
+| $$  \__/| $$  \ $$| $$            | $$  \ $$  /$$$$$$  /$$    /$$/$$$$$$   /$$$$$$ 
+| $$      | $$$$$$$$| $$$$$         | $$$$$$$/ /$$__  $$|  $$  /$$/$$__  $$ /$$__  $$
+| $$      | $$__  $$| $$__/         | $$__  $$| $$  \ $$ \  $$/$$/ $$$$$$$$| $$  \__/
+| $$    $$| $$  | $$| $$            | $$  \ $$| $$  | $$  \  $$$/| $$_____/| $$      
+|  $$$$$$/| $$  | $$| $$            | $$  | $$|  $$$$$$/   \  $/ |  $$$$$$$| $$      
+ \______/ |__/  |__/|__/            |__/  |__/ \______/     \_/   \_______/|__/      
+                                                                                     
+                                                                                                                                                           
+              version: aztfmod/rover:2009.0210
+
+
+mode                          : 'landingzone'
+terraform command output file : ''
+tf_action                     : 'show'
+command and parameters        : '-json launchpad.tfplan'
+level (current)               : 'level0'
+environment                   : 'sandpit'
+workspace                     : 'sandpit'
+tfstate                       : 'launchpad.tfstate'
+
+@calling process_actions
+@calling verify_azure_session
+Checking existing Azure session
+@calling verify_parameters
+landingzone                   : '/tf/caf/landingzones/launchpad'
+@calling get_storage_id
+
+launchpad_light already installed
+
+
+You can deploy a landingzone with the rover by running:
+  rover -lz [landingzone_folder_name] -a [plan|apply|destroy|validate]
+
+List of the landingzones loaded in the rover:
+/tf/caf/landingzones/landingzone_caf_foundations
+/tf/caf/landingzones/landingzone_networking
+

@@ -1,0 +1,11 @@
+//   resource "azurerm_network_interface" "nic" {
+//   name                = "aadds-146b00c4f0f74b65875dc586611c0c0b-nic"
+//   location            = "eastus"
+//   resource_group_name = "ad-domain-svcs-test-eastus-rg"
+
+//   ip_configuration {
+//     name                          = "F-XY6NS3-R7D172Ipcfg"
+//     subnet_id                     = "/subscriptions/dc193031-c177-4ce6-a3a6-54716d0e1c0c/resourceGroups/ad-domain-svcs-test-eastus-rg/providers/Microsoft.Network/virtualNetworks/aadds-compliance-test-eastus-vnet/subnets/aadds-compliance-test-eastus-snet"
+//     private_ip_address_allocation = "Dynamic"
+//   }
+// }
